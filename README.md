@@ -35,3 +35,23 @@ http://localhost:8000
 - Tooltip and details panel show population, region, and income group.
 
 Small country/economy labels are intentionally hidden when rectangles are too small. Users can hover or zoom in to inspect details.
+
+## Data Processing Output
+
+The conversion script generates the following statistics:
+
+```
+Latest available year detected: 2024
+JIT-compatible JSON saved as: data.json
+Population covered: 8,118,396,046
+Countries/economies included: 217
+World Bank regions included: 7
+```
+
+This data represents the most comprehensive and up-to-date global population dataset from the World Bank API.
+
+## Dashboard Visualization
+
+![World Bank JIT Dashboard](screenshots/dashboard.png)
+
+The interactive dashboard displays world population data in a Squarified TreeMap format, with each rectangle representing a country/economy sized proportionally to its population.
