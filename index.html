@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World Bank Population Dashboard using JIT</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script src="js/jit.js"></script>
+  <script src="js/app.js"></script>
+</head>
+
+<body onload="init();">
+
+  <header class="dashboard-banner">
+    <div>
+      <h1>World Bank Population Dashboard</h1>
+      <p>
+        Interactive TreeMap visualization of real-world population data using the JavaScript InfoVis Toolkit.
+      </p>
+    </div>
+  </header>
+
+  <section class="summary-row">
+    <div class="summary-card">
+      <h3>Population Covered</h3>
+      <p id="totalPopulation">Loading...</p>
+    </div>
+
+    <div class="summary-card">
+      <h3>World Bank Regions</h3>
+      <p id="totalRegions">Loading...</p>
+    </div>
+
+    <div class="summary-card">
+      <h3>Countries / Economies</h3>
+      <p id="totalCountries">Loading...</p>
+    </div>
+
+    <div class="summary-card">
+      <h3>Latest Year</h3>
+      <p id="latestYear">Loading...</p>
+    </div>
+  </section>
+
+  <main class="dashboard-main">
+
+    <aside class="sidebar">
+      <h2>Dataset Information</h2>
+
+      <p><strong>Dataset:</strong> World Bank Population, total</p>
+      <p><strong>Indicator:</strong> SP.POP.TOTL</p>
+      <p><strong>Data units:</strong> Countries and economies with valid World Bank region metadata</p>
+      <p><strong>Visualization:</strong> JIT Squarified TreeMap</p>
+      <p><strong>Area encoding:</strong> Rectangle area represents population size.</p>
+      <p><strong>Color encoding:</strong> Color represents the World Bank region using the <code>$color</code> field in the JIT JSON data.</p>
+
+      <hr>
+
+      <h3>Interaction Guide</h3>
+      <p>Click a region or country/economy to zoom in and view details.</p>
+      <p>Right-click or use the Back button to zoom out.</p>
+
+      <button id="back">Back</button>
+
+      <div id="details">
+        <h3>Details</h3>
+        <p>Hover or click on a region/country/economy to view details.</p>
+      </div>
+    </aside>
+
+    <section class="visual-section">
+      <div class="visual-header">
+        <h2>Population by Region and Country/Economy</h2>
+        <p>
+          Data units are grouped by World Bank region. Rectangle area represents population size,
+          while color represents the World Bank region.
+        </p>
+      </div>
+
+      <div class="legend-card">
+        <div class="legend-title">Region Color Legend</div>
+        <div id="regionLegend" class="legend-items">Loading legend...</div>
+      </div>
+
+      <div id="infovis"></div>
+    </section>
+
+  </main>
+
+</body>
+</html>
