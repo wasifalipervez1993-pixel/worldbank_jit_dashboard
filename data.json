@@ -1,0 +1,2933 @@
+{
+  "id": "root",
+  "name": "World Population by Region (2024)",
+  "data": {
+    "$area": 8118396046,
+    "population": 8118396046,
+    "year": "2024",
+    "region_colors": {
+      "East Asia & Pacific": "#76B7B2",
+      "Europe & Central Asia": "#F28E2B",
+      "Latin America & Caribbean": "#EDC948",
+      "Middle East & North Africa": "#E15759",
+      "North America": "#B07AA1",
+      "South Asia": "#4E79A7",
+      "Sub-Saharan Africa": "#59A14F"
+    },
+    "description": "World Bank population dataset for 2024"
+  },
+  "children": [
+    {
+      "id": "east_asia_and_pacific",
+      "name": "East Asia & Pacific",
+      "data": {
+        "$area": 2364906595,
+        "$color": "#76B7B2",
+        "population": 2364906595,
+        "region": "East Asia & Pacific",
+        "description": "Total population of East Asia & Pacific"
+      },
+      "children": [
+        {
+          "id": "CHN",
+          "name": "China",
+          "data": {
+            "$area": 1408975000,
+            "$color": "#76B7B2",
+            "population": 1408975000,
+            "region": "East Asia & Pacific",
+            "income_group": "Upper middle income",
+            "description": "China population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "IDN",
+          "name": "Indonesia",
+          "data": {
+            "$area": 283487931,
+            "$color": "#76B7B2",
+            "population": 283487931,
+            "region": "East Asia & Pacific",
+            "income_group": "Upper middle income",
+            "description": "Indonesia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "JPN",
+          "name": "Japan",
+          "data": {
+            "$area": 123975371,
+            "$color": "#76B7B2",
+            "population": 123975371,
+            "region": "East Asia & Pacific",
+            "income_group": "High income",
+            "description": "Japan population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "PHL",
+          "name": "Philippines",
+          "data": {
+            "$area": 115843670,
+            "$color": "#76B7B2",
+            "population": 115843670,
+            "region": "East Asia & Pacific",
+            "income_group": "Lower middle income",
+            "description": "Philippines population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "VNM",
+          "name": "Viet Nam",
+          "data": {
+            "$area": 100987686,
+            "$color": "#76B7B2",
+            "population": 100987686,
+            "region": "East Asia & Pacific",
+            "income_group": "Lower middle income",
+            "description": "Viet Nam population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "THA",
+          "name": "Thailand",
+          "data": {
+            "$area": 71668011,
+            "$color": "#76B7B2",
+            "population": 71668011,
+            "region": "East Asia & Pacific",
+            "income_group": "Upper middle income",
+            "description": "Thailand population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MMR",
+          "name": "Myanmar",
+          "data": {
+            "$area": 54500091,
+            "$color": "#76B7B2",
+            "population": 54500091,
+            "region": "East Asia & Pacific",
+            "income_group": "Lower middle income",
+            "description": "Myanmar population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "KOR",
+          "name": "Korea, Rep.",
+          "data": {
+            "$area": 51751065,
+            "$color": "#76B7B2",
+            "population": 51751065,
+            "region": "East Asia & Pacific",
+            "income_group": "High income",
+            "description": "Korea, Rep. population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MYS",
+          "name": "Malaysia",
+          "data": {
+            "$area": 35557673,
+            "$color": "#76B7B2",
+            "population": 35557673,
+            "region": "East Asia & Pacific",
+            "income_group": "Upper middle income",
+            "description": "Malaysia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "AUS",
+          "name": "Australia",
+          "data": {
+            "$area": 27196812,
+            "$color": "#76B7B2",
+            "population": 27196812,
+            "region": "East Asia & Pacific",
+            "income_group": "High income",
+            "description": "Australia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "PRK",
+          "name": "Korea, Dem. People's Rep.",
+          "data": {
+            "$area": 26498823,
+            "$color": "#76B7B2",
+            "population": 26498823,
+            "region": "East Asia & Pacific",
+            "income_group": "Low income",
+            "description": "Korea, Dem. People's Rep. population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "KHM",
+          "name": "Cambodia",
+          "data": {
+            "$area": 17638801,
+            "$color": "#76B7B2",
+            "population": 17638801,
+            "region": "East Asia & Pacific",
+            "income_group": "Lower middle income",
+            "description": "Cambodia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "PNG",
+          "name": "Papua New Guinea",
+          "data": {
+            "$area": 10576502,
+            "$color": "#76B7B2",
+            "population": 10576502,
+            "region": "East Asia & Pacific",
+            "income_group": "Lower middle income",
+            "description": "Papua New Guinea population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "LAO",
+          "name": "Lao PDR",
+          "data": {
+            "$area": 7769819,
+            "$color": "#76B7B2",
+            "population": 7769819,
+            "region": "East Asia & Pacific",
+            "income_group": "Lower middle income",
+            "description": "Lao PDR population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "HKG",
+          "name": "Hong Kong SAR, China",
+          "data": {
+            "$area": 7524100,
+            "$color": "#76B7B2",
+            "population": 7524100,
+            "region": "East Asia & Pacific",
+            "income_group": "High income",
+            "description": "Hong Kong SAR, China population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SGP",
+          "name": "Singapore",
+          "data": {
+            "$area": 6036860,
+            "$color": "#76B7B2",
+            "population": 6036860,
+            "region": "East Asia & Pacific",
+            "income_group": "High income",
+            "description": "Singapore population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "NZL",
+          "name": "New Zealand",
+          "data": {
+            "$area": 5287500,
+            "$color": "#76B7B2",
+            "population": 5287500,
+            "region": "East Asia & Pacific",
+            "income_group": "High income",
+            "description": "New Zealand population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MNG",
+          "name": "Mongolia",
+          "data": {
+            "$area": 3524788,
+            "$color": "#76B7B2",
+            "population": 3524788,
+            "region": "East Asia & Pacific",
+            "income_group": "Upper middle income",
+            "description": "Mongolia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "TLS",
+          "name": "Timor-Leste",
+          "data": {
+            "$area": 1400638,
+            "$color": "#76B7B2",
+            "population": 1400638,
+            "region": "East Asia & Pacific",
+            "income_group": "Lower middle income",
+            "description": "Timor-Leste population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "FJI",
+          "name": "Fiji",
+          "data": {
+            "$area": 928784,
+            "$color": "#76B7B2",
+            "population": 928784,
+            "region": "East Asia & Pacific",
+            "income_group": "Upper middle income",
+            "description": "Fiji population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SLB",
+          "name": "Solomon Islands",
+          "data": {
+            "$area": 819198,
+            "$color": "#76B7B2",
+            "population": 819198,
+            "region": "East Asia & Pacific",
+            "income_group": "Lower middle income",
+            "description": "Solomon Islands population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MAC",
+          "name": "Macao SAR, China",
+          "data": {
+            "$area": 687000,
+            "$color": "#76B7B2",
+            "population": 687000,
+            "region": "East Asia & Pacific",
+            "income_group": "High income",
+            "description": "Macao SAR, China population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "BRN",
+          "name": "Brunei Darussalam",
+          "data": {
+            "$area": 462721,
+            "$color": "#76B7B2",
+            "population": 462721,
+            "region": "East Asia & Pacific",
+            "income_group": "High income",
+            "description": "Brunei Darussalam population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "VUT",
+          "name": "Vanuatu",
+          "data": {
+            "$area": 327777,
+            "$color": "#76B7B2",
+            "population": 327777,
+            "region": "East Asia & Pacific",
+            "income_group": "Lower middle income",
+            "description": "Vanuatu population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "NCL",
+          "name": "New Caledonia",
+          "data": {
+            "$area": 292639,
+            "$color": "#76B7B2",
+            "population": 292639,
+            "region": "East Asia & Pacific",
+            "income_group": "High income",
+            "description": "New Caledonia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "PYF",
+          "name": "French Polynesia",
+          "data": {
+            "$area": 281807,
+            "$color": "#76B7B2",
+            "population": 281807,
+            "region": "East Asia & Pacific",
+            "income_group": "High income",
+            "description": "French Polynesia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "WSM",
+          "name": "Samoa",
+          "data": {
+            "$area": 218019,
+            "$color": "#76B7B2",
+            "population": 218019,
+            "region": "East Asia & Pacific",
+            "income_group": "Upper middle income",
+            "description": "Samoa population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "GUM",
+          "name": "Guam",
+          "data": {
+            "$area": 167777,
+            "$color": "#76B7B2",
+            "population": 167777,
+            "region": "East Asia & Pacific",
+            "income_group": "High income",
+            "description": "Guam population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "KIR",
+          "name": "Kiribati",
+          "data": {
+            "$area": 134518,
+            "$color": "#76B7B2",
+            "population": 134518,
+            "region": "East Asia & Pacific",
+            "income_group": "Lower middle income",
+            "description": "Kiribati population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "FSM",
+          "name": "Micronesia, Fed. Sts.",
+          "data": {
+            "$area": 113160,
+            "$color": "#76B7B2",
+            "population": 113160,
+            "region": "East Asia & Pacific",
+            "income_group": "Lower middle income",
+            "description": "Micronesia, Fed. Sts. population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "TON",
+          "name": "Tonga",
+          "data": {
+            "$area": 104175,
+            "$color": "#76B7B2",
+            "population": 104175,
+            "region": "East Asia & Pacific",
+            "income_group": "Upper middle income",
+            "description": "Tonga population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ASM",
+          "name": "American Samoa",
+          "data": {
+            "$area": 46765,
+            "$color": "#76B7B2",
+            "population": 46765,
+            "region": "East Asia & Pacific",
+            "income_group": "High income",
+            "description": "American Samoa population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MNP",
+          "name": "Northern Mariana Islands",
+          "data": {
+            "$area": 44278,
+            "$color": "#76B7B2",
+            "population": 44278,
+            "region": "East Asia & Pacific",
+            "income_group": "High income",
+            "description": "Northern Mariana Islands population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MHL",
+          "name": "Marshall Islands",
+          "data": {
+            "$area": 37548,
+            "$color": "#76B7B2",
+            "population": 37548,
+            "region": "East Asia & Pacific",
+            "income_group": "Upper middle income",
+            "description": "Marshall Islands population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "PLW",
+          "name": "Palau",
+          "data": {
+            "$area": 17695,
+            "$color": "#76B7B2",
+            "population": 17695,
+            "region": "East Asia & Pacific",
+            "income_group": "High income",
+            "description": "Palau population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "NRU",
+          "name": "Nauru",
+          "data": {
+            "$area": 11947,
+            "$color": "#76B7B2",
+            "population": 11947,
+            "region": "East Asia & Pacific",
+            "income_group": "High income",
+            "description": "Nauru population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "TUV",
+          "name": "Tuvalu",
+          "data": {
+            "$area": 9646,
+            "$color": "#76B7B2",
+            "population": 9646,
+            "region": "East Asia & Pacific",
+            "income_group": "Upper middle income",
+            "description": "Tuvalu population in 2024"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "europe_and_central_asia",
+      "name": "Europe & Central Asia",
+      "data": {
+        "$area": 928263208,
+        "$color": "#F28E2B",
+        "population": 928263208,
+        "region": "Europe & Central Asia",
+        "description": "Total population of Europe & Central Asia"
+      },
+      "children": [
+        {
+          "id": "RUS",
+          "name": "Russian Federation",
+          "data": {
+            "$area": 143533851,
+            "$color": "#F28E2B",
+            "population": 143533851,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Russian Federation population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "TUR",
+          "name": "Turkiye",
+          "data": {
+            "$area": 85518661,
+            "$color": "#F28E2B",
+            "population": 85518661,
+            "region": "Europe & Central Asia",
+            "income_group": "Upper middle income",
+            "description": "Turkiye population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "DEU",
+          "name": "Germany",
+          "data": {
+            "$area": 83516593,
+            "$color": "#F28E2B",
+            "population": 83516593,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Germany population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "GBR",
+          "name": "United Kingdom",
+          "data": {
+            "$area": 69226000,
+            "$color": "#F28E2B",
+            "population": 69226000,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "United Kingdom population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "FRA",
+          "name": "France",
+          "data": {
+            "$area": 68551653,
+            "$color": "#F28E2B",
+            "population": 68551653,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "France population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ITA",
+          "name": "Italy",
+          "data": {
+            "$area": 58952704,
+            "$color": "#F28E2B",
+            "population": 58952704,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Italy population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ESP",
+          "name": "Spain",
+          "data": {
+            "$area": 48848840,
+            "$color": "#F28E2B",
+            "population": 48848840,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Spain population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "UKR",
+          "name": "Ukraine",
+          "data": {
+            "$area": 37860221,
+            "$color": "#F28E2B",
+            "population": 37860221,
+            "region": "Europe & Central Asia",
+            "income_group": "Upper middle income",
+            "description": "Ukraine population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "POL",
+          "name": "Poland",
+          "data": {
+            "$area": 36559233,
+            "$color": "#F28E2B",
+            "population": 36559233,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Poland population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "UZB",
+          "name": "Uzbekistan",
+          "data": {
+            "$area": 36361859,
+            "$color": "#F28E2B",
+            "population": 36361859,
+            "region": "Europe & Central Asia",
+            "income_group": "Lower middle income",
+            "description": "Uzbekistan population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "KAZ",
+          "name": "Kazakhstan",
+          "data": {
+            "$area": 20592571,
+            "$color": "#F28E2B",
+            "population": 20592571,
+            "region": "Europe & Central Asia",
+            "income_group": "Upper middle income",
+            "description": "Kazakhstan population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ROU",
+          "name": "Romania",
+          "data": {
+            "$area": 19051804,
+            "$color": "#F28E2B",
+            "population": 19051804,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Romania population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "NLD",
+          "name": "Netherlands",
+          "data": {
+            "$area": 17993485,
+            "$color": "#F28E2B",
+            "population": 17993485,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Netherlands population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "BEL",
+          "name": "Belgium",
+          "data": {
+            "$area": 11858610,
+            "$color": "#F28E2B",
+            "population": 11858610,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Belgium population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "CZE",
+          "name": "Czechia",
+          "data": {
+            "$area": 10905028,
+            "$color": "#F28E2B",
+            "population": 10905028,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Czechia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "PRT",
+          "name": "Portugal",
+          "data": {
+            "$area": 10694681,
+            "$color": "#F28E2B",
+            "population": 10694681,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Portugal population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "TJK",
+          "name": "Tajikistan",
+          "data": {
+            "$area": 10590927,
+            "$color": "#F28E2B",
+            "population": 10590927,
+            "region": "Europe & Central Asia",
+            "income_group": "Lower middle income",
+            "description": "Tajikistan population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SWE",
+          "name": "Sweden",
+          "data": {
+            "$area": 10569709,
+            "$color": "#F28E2B",
+            "population": 10569709,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Sweden population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "GRC",
+          "name": "Greece",
+          "data": {
+            "$area": 10405134,
+            "$color": "#F28E2B",
+            "population": 10405134,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Greece population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "AZE",
+          "name": "Azerbaijan",
+          "data": {
+            "$area": 10202830,
+            "$color": "#F28E2B",
+            "population": 10202830,
+            "region": "Europe & Central Asia",
+            "income_group": "Upper middle income",
+            "description": "Azerbaijan population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "HUN",
+          "name": "Hungary",
+          "data": {
+            "$area": 9562065,
+            "$color": "#F28E2B",
+            "population": 9562065,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Hungary population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "AUT",
+          "name": "Austria",
+          "data": {
+            "$area": 9177982,
+            "$color": "#F28E2B",
+            "population": 9177982,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Austria population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "BLR",
+          "name": "Belarus",
+          "data": {
+            "$area": 9132629,
+            "$color": "#F28E2B",
+            "population": 9132629,
+            "region": "Europe & Central Asia",
+            "income_group": "Upper middle income",
+            "description": "Belarus population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "CHE",
+          "name": "Switzerland",
+          "data": {
+            "$area": 9005582,
+            "$color": "#F28E2B",
+            "population": 9005582,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Switzerland population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "TKM",
+          "name": "Turkmenistan",
+          "data": {
+            "$area": 7494498,
+            "$color": "#F28E2B",
+            "population": 7494498,
+            "region": "Europe & Central Asia",
+            "income_group": "Upper middle income",
+            "description": "Turkmenistan population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "KGZ",
+          "name": "Kyrgyz Republic",
+          "data": {
+            "$area": 7221868,
+            "$color": "#F28E2B",
+            "population": 7221868,
+            "region": "Europe & Central Asia",
+            "income_group": "Lower middle income",
+            "description": "Kyrgyz Republic population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SRB",
+          "name": "Serbia",
+          "data": {
+            "$area": 6586476,
+            "$color": "#F28E2B",
+            "population": 6586476,
+            "region": "Europe & Central Asia",
+            "income_group": "Upper middle income",
+            "description": "Serbia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "BGR",
+          "name": "Bulgaria",
+          "data": {
+            "$area": 6441421,
+            "$color": "#F28E2B",
+            "population": 6441421,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Bulgaria population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "DNK",
+          "name": "Denmark",
+          "data": {
+            "$area": 5976992,
+            "$color": "#F28E2B",
+            "population": 5976992,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Denmark population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "FIN",
+          "name": "Finland",
+          "data": {
+            "$area": 5619911,
+            "$color": "#F28E2B",
+            "population": 5619911,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Finland population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "NOR",
+          "name": "Norway",
+          "data": {
+            "$area": 5572279,
+            "$color": "#F28E2B",
+            "population": 5572279,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Norway population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SVK",
+          "name": "Slovak Republic",
+          "data": {
+            "$area": 5422069,
+            "$color": "#F28E2B",
+            "population": 5422069,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Slovak Republic population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "IRL",
+          "name": "Ireland",
+          "data": {
+            "$area": 5395790,
+            "$color": "#F28E2B",
+            "population": 5395790,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Ireland population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "HRV",
+          "name": "Croatia",
+          "data": {
+            "$area": 3866200,
+            "$color": "#F28E2B",
+            "population": 3866200,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Croatia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "GEO",
+          "name": "Georgia",
+          "data": {
+            "$area": 3699557,
+            "$color": "#F28E2B",
+            "population": 3699557,
+            "region": "Europe & Central Asia",
+            "income_group": "Upper middle income",
+            "description": "Georgia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "BIH",
+          "name": "Bosnia and Herzegovina",
+          "data": {
+            "$area": 3164253,
+            "$color": "#F28E2B",
+            "population": 3164253,
+            "region": "Europe & Central Asia",
+            "income_group": "Upper middle income",
+            "description": "Bosnia and Herzegovina population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ARM",
+          "name": "Armenia",
+          "data": {
+            "$area": 3033500,
+            "$color": "#F28E2B",
+            "population": 3033500,
+            "region": "Europe & Central Asia",
+            "income_group": "Upper middle income",
+            "description": "Armenia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "LTU",
+          "name": "Lithuania",
+          "data": {
+            "$area": 2888278,
+            "$color": "#F28E2B",
+            "population": 2888278,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Lithuania population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MDA",
+          "name": "Moldova",
+          "data": {
+            "$area": 2402306,
+            "$color": "#F28E2B",
+            "population": 2402306,
+            "region": "Europe & Central Asia",
+            "income_group": "Upper middle income",
+            "description": "Moldova population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ALB",
+          "name": "Albania",
+          "data": {
+            "$area": 2377128,
+            "$color": "#F28E2B",
+            "population": 2377128,
+            "region": "Europe & Central Asia",
+            "income_group": "Upper middle income",
+            "description": "Albania population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SVN",
+          "name": "Slovenia",
+          "data": {
+            "$area": 2127400,
+            "$color": "#F28E2B",
+            "population": 2127400,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Slovenia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "LVA",
+          "name": "Latvia",
+          "data": {
+            "$area": 1866124,
+            "$color": "#F28E2B",
+            "population": 1866124,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Latvia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MKD",
+          "name": "North Macedonia",
+          "data": {
+            "$area": 1824359,
+            "$color": "#F28E2B",
+            "population": 1824359,
+            "region": "Europe & Central Asia",
+            "income_group": "Upper middle income",
+            "description": "North Macedonia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "XKX",
+          "name": "Kosovo",
+          "data": {
+            "$area": 1594353,
+            "$color": "#F28E2B",
+            "population": 1594353,
+            "region": "Europe & Central Asia",
+            "income_group": "Upper middle income",
+            "description": "Kosovo population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "EST",
+          "name": "Estonia",
+          "data": {
+            "$area": 1372341,
+            "$color": "#F28E2B",
+            "population": 1372341,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Estonia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "CYP",
+          "name": "Cyprus",
+          "data": {
+            "$area": 1358282,
+            "$color": "#F28E2B",
+            "population": 1358282,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Cyprus population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "LUX",
+          "name": "Luxembourg",
+          "data": {
+            "$area": 677012,
+            "$color": "#F28E2B",
+            "population": 677012,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Luxembourg population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MNE",
+          "name": "Montenegro",
+          "data": {
+            "$area": 623525,
+            "$color": "#F28E2B",
+            "population": 623525,
+            "region": "Europe & Central Asia",
+            "income_group": "Upper middle income",
+            "description": "Montenegro population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ISL",
+          "name": "Iceland",
+          "data": {
+            "$area": 386506,
+            "$color": "#F28E2B",
+            "population": 386506,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Iceland population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "CHI",
+          "name": "Channel Islands",
+          "data": {
+            "$area": 168126,
+            "$color": "#F28E2B",
+            "population": 168126,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Channel Islands population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "IMN",
+          "name": "Isle of Man",
+          "data": {
+            "$area": 84160,
+            "$color": "#F28E2B",
+            "population": 84160,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Isle of Man population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "AND",
+          "name": "Andorra",
+          "data": {
+            "$area": 81938,
+            "$color": "#F28E2B",
+            "population": 81938,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Andorra population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "GRL",
+          "name": "Greenland",
+          "data": {
+            "$area": 56836,
+            "$color": "#F28E2B",
+            "population": 56836,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Greenland population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "FRO",
+          "name": "Faroe Islands",
+          "data": {
+            "$area": 54681,
+            "$color": "#F28E2B",
+            "population": 54681,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Faroe Islands population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "LIE",
+          "name": "Liechtenstein",
+          "data": {
+            "$area": 40450,
+            "$color": "#F28E2B",
+            "population": 40450,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Liechtenstein population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "GIB",
+          "name": "Gibraltar",
+          "data": {
+            "$area": 39329,
+            "$color": "#F28E2B",
+            "population": 39329,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Gibraltar population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MCO",
+          "name": "Monaco",
+          "data": {
+            "$area": 38631,
+            "$color": "#F28E2B",
+            "population": 38631,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "Monaco population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SMR",
+          "name": "San Marino",
+          "data": {
+            "$area": 33977,
+            "$color": "#F28E2B",
+            "population": 33977,
+            "region": "Europe & Central Asia",
+            "income_group": "High income",
+            "description": "San Marino population in 2024"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "latin_america_and_caribbean",
+      "name": "Latin America & Caribbean",
+      "data": {
+        "$area": 662186388,
+        "$color": "#EDC948",
+        "population": 662186388,
+        "region": "Latin America & Caribbean",
+        "description": "Total population of Latin America & Caribbean"
+      },
+      "children": [
+        {
+          "id": "BRA",
+          "name": "Brazil",
+          "data": {
+            "$area": 211998573,
+            "$color": "#EDC948",
+            "population": 211998573,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "Brazil population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MEX",
+          "name": "Mexico",
+          "data": {
+            "$area": 130861007,
+            "$color": "#EDC948",
+            "population": 130861007,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "Mexico population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "COL",
+          "name": "Colombia",
+          "data": {
+            "$area": 52886363,
+            "$color": "#EDC948",
+            "population": 52886363,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "Colombia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ARG",
+          "name": "Argentina",
+          "data": {
+            "$area": 45696159,
+            "$color": "#EDC948",
+            "population": 45696159,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "Argentina population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "PER",
+          "name": "Peru",
+          "data": {
+            "$area": 34217848,
+            "$color": "#EDC948",
+            "population": 34217848,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "Peru population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "VEN",
+          "name": "Venezuela, RB",
+          "data": {
+            "$area": 28405543,
+            "$color": "#EDC948",
+            "population": 28405543,
+            "region": "Latin America & Caribbean",
+            "income_group": "Not available",
+            "description": "Venezuela, RB population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "CHL",
+          "name": "Chile",
+          "data": {
+            "$area": 19764771,
+            "$color": "#EDC948",
+            "population": 19764771,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "Chile population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "GTM",
+          "name": "Guatemala",
+          "data": {
+            "$area": 18406359,
+            "$color": "#EDC948",
+            "population": 18406359,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "Guatemala population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ECU",
+          "name": "Ecuador",
+          "data": {
+            "$area": 18135478,
+            "$color": "#EDC948",
+            "population": 18135478,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "Ecuador population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "BOL",
+          "name": "Bolivia",
+          "data": {
+            "$area": 12413315,
+            "$color": "#EDC948",
+            "population": 12413315,
+            "region": "Latin America & Caribbean",
+            "income_group": "Lower middle income",
+            "description": "Bolivia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "HTI",
+          "name": "Haiti",
+          "data": {
+            "$area": 11772557,
+            "$color": "#EDC948",
+            "population": 11772557,
+            "region": "Latin America & Caribbean",
+            "income_group": "Lower middle income",
+            "description": "Haiti population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "DOM",
+          "name": "Dominican Republic",
+          "data": {
+            "$area": 11427557,
+            "$color": "#EDC948",
+            "population": 11427557,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "Dominican Republic population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "CUB",
+          "name": "Cuba",
+          "data": {
+            "$area": 10979783,
+            "$color": "#EDC948",
+            "population": 10979783,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "Cuba population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "HND",
+          "name": "Honduras",
+          "data": {
+            "$area": 10825703,
+            "$color": "#EDC948",
+            "population": 10825703,
+            "region": "Latin America & Caribbean",
+            "income_group": "Lower middle income",
+            "description": "Honduras population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "PRY",
+          "name": "Paraguay",
+          "data": {
+            "$area": 6929153,
+            "$color": "#EDC948",
+            "population": 6929153,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "Paraguay population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "NIC",
+          "name": "Nicaragua",
+          "data": {
+            "$area": 6916140,
+            "$color": "#EDC948",
+            "population": 6916140,
+            "region": "Latin America & Caribbean",
+            "income_group": "Lower middle income",
+            "description": "Nicaragua population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SLV",
+          "name": "El Salvador",
+          "data": {
+            "$area": 6338193,
+            "$color": "#EDC948",
+            "population": 6338193,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "El Salvador population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "CRI",
+          "name": "Costa Rica",
+          "data": {
+            "$area": 5129910,
+            "$color": "#EDC948",
+            "population": 5129910,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "Costa Rica population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "PAN",
+          "name": "Panama",
+          "data": {
+            "$area": 4515577,
+            "$color": "#EDC948",
+            "population": 4515577,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "Panama population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "URY",
+          "name": "Uruguay",
+          "data": {
+            "$area": 3386588,
+            "$color": "#EDC948",
+            "population": 3386588,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "Uruguay population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "PRI",
+          "name": "Puerto Rico (US)",
+          "data": {
+            "$area": 3203295,
+            "$color": "#EDC948",
+            "population": 3203295,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "Puerto Rico (US) population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "JAM",
+          "name": "Jamaica",
+          "data": {
+            "$area": 2839175,
+            "$color": "#EDC948",
+            "population": 2839175,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "Jamaica population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "TTO",
+          "name": "Trinidad and Tobago",
+          "data": {
+            "$area": 1368333,
+            "$color": "#EDC948",
+            "population": 1368333,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "Trinidad and Tobago population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "GUY",
+          "name": "Guyana",
+          "data": {
+            "$area": 831087,
+            "$color": "#EDC948",
+            "population": 831087,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "Guyana population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SUR",
+          "name": "Suriname",
+          "data": {
+            "$area": 634431,
+            "$color": "#EDC948",
+            "population": 634431,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "Suriname population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "BLZ",
+          "name": "Belize",
+          "data": {
+            "$area": 417072,
+            "$color": "#EDC948",
+            "population": 417072,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "Belize population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "BHS",
+          "name": "Bahamas, The",
+          "data": {
+            "$area": 401283,
+            "$color": "#EDC948",
+            "population": 401283,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "Bahamas, The population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "BRB",
+          "name": "Barbados",
+          "data": {
+            "$area": 282467,
+            "$color": "#EDC948",
+            "population": 282467,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "Barbados population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "LCA",
+          "name": "St. Lucia",
+          "data": {
+            "$area": 179744,
+            "$color": "#EDC948",
+            "population": 179744,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "St. Lucia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "CUW",
+          "name": "Curacao",
+          "data": {
+            "$area": 155967,
+            "$color": "#EDC948",
+            "population": 155967,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "Curacao population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "GRD",
+          "name": "Grenada",
+          "data": {
+            "$area": 117207,
+            "$color": "#EDC948",
+            "population": 117207,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "Grenada population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ABW",
+          "name": "Aruba",
+          "data": {
+            "$area": 107995,
+            "$color": "#EDC948",
+            "population": 107995,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "Aruba population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "VIR",
+          "name": "Virgin Islands (U.S.)",
+          "data": {
+            "$area": 104377,
+            "$color": "#EDC948",
+            "population": 104377,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "Virgin Islands (U.S.) population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "VCT",
+          "name": "St. Vincent and the Grenadines",
+          "data": {
+            "$area": 100616,
+            "$color": "#EDC948",
+            "population": 100616,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "St. Vincent and the Grenadines population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ATG",
+          "name": "Antigua and Barbuda",
+          "data": {
+            "$area": 93772,
+            "$color": "#EDC948",
+            "population": 93772,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "Antigua and Barbuda population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "CYM",
+          "name": "Cayman Islands",
+          "data": {
+            "$area": 74457,
+            "$color": "#EDC948",
+            "population": 74457,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "Cayman Islands population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "DMA",
+          "name": "Dominica",
+          "data": {
+            "$area": 66205,
+            "$color": "#EDC948",
+            "population": 66205,
+            "region": "Latin America & Caribbean",
+            "income_group": "Upper middle income",
+            "description": "Dominica population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "KNA",
+          "name": "St. Kitts and Nevis",
+          "data": {
+            "$area": 46843,
+            "$color": "#EDC948",
+            "population": 46843,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "St. Kitts and Nevis population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "TCA",
+          "name": "Turks and Caicos Islands",
+          "data": {
+            "$area": 46535,
+            "$color": "#EDC948",
+            "population": 46535,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "Turks and Caicos Islands population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SXM",
+          "name": "Sint Maarten (Dutch part)",
+          "data": {
+            "$area": 43350,
+            "$color": "#EDC948",
+            "population": 43350,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "Sint Maarten (Dutch part) population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "VGB",
+          "name": "British Virgin Islands",
+          "data": {
+            "$area": 39471,
+            "$color": "#EDC948",
+            "population": 39471,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "British Virgin Islands population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MAF",
+          "name": "St. Martin (French part)",
+          "data": {
+            "$area": 26129,
+            "$color": "#EDC948",
+            "population": 26129,
+            "region": "Latin America & Caribbean",
+            "income_group": "High income",
+            "description": "St. Martin (French part) population in 2024"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "middle_east_and_north_africa",
+      "name": "Middle East & North Africa",
+      "data": {
+        "$area": 813146136,
+        "$color": "#E15759",
+        "population": 813146136,
+        "region": "Middle East & North Africa",
+        "description": "Total population of Middle East & North Africa"
+      },
+      "children": [
+        {
+          "id": "PAK",
+          "name": "Pakistan",
+          "data": {
+            "$area": 251269164,
+            "$color": "#E15759",
+            "population": 251269164,
+            "region": "Middle East & North Africa",
+            "income_group": "Lower middle income",
+            "description": "Pakistan population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "EGY",
+          "name": "Egypt, Arab Rep.",
+          "data": {
+            "$area": 116538258,
+            "$color": "#E15759",
+            "population": 116538258,
+            "region": "Middle East & North Africa",
+            "income_group": "Lower middle income",
+            "description": "Egypt, Arab Rep. population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "IRN",
+          "name": "Iran, Islamic Rep.",
+          "data": {
+            "$area": 91567738,
+            "$color": "#E15759",
+            "population": 91567738,
+            "region": "Middle East & North Africa",
+            "income_group": "Upper middle income",
+            "description": "Iran, Islamic Rep. population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "DZA",
+          "name": "Algeria",
+          "data": {
+            "$area": 46814308,
+            "$color": "#E15759",
+            "population": 46814308,
+            "region": "Middle East & North Africa",
+            "income_group": "Upper middle income",
+            "description": "Algeria population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "IRQ",
+          "name": "Iraq",
+          "data": {
+            "$area": 46042015,
+            "$color": "#E15759",
+            "population": 46042015,
+            "region": "Middle East & North Africa",
+            "income_group": "Upper middle income",
+            "description": "Iraq population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "AFG",
+          "name": "Afghanistan",
+          "data": {
+            "$area": 42647492,
+            "$color": "#E15759",
+            "population": 42647492,
+            "region": "Middle East & North Africa",
+            "income_group": "Low income",
+            "description": "Afghanistan population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "YEM",
+          "name": "Yemen, Rep.",
+          "data": {
+            "$area": 40583164,
+            "$color": "#E15759",
+            "population": 40583164,
+            "region": "Middle East & North Africa",
+            "income_group": "Low income",
+            "description": "Yemen, Rep. population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MAR",
+          "name": "Morocco",
+          "data": {
+            "$area": 38081173,
+            "$color": "#E15759",
+            "population": 38081173,
+            "region": "Middle East & North Africa",
+            "income_group": "Lower middle income",
+            "description": "Morocco population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SAU",
+          "name": "Saudi Arabia",
+          "data": {
+            "$area": 35300280,
+            "$color": "#E15759",
+            "population": 35300280,
+            "region": "Middle East & North Africa",
+            "income_group": "High income",
+            "description": "Saudi Arabia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SYR",
+          "name": "Syrian Arab Republic",
+          "data": {
+            "$area": 24672760,
+            "$color": "#E15759",
+            "population": 24672760,
+            "region": "Middle East & North Africa",
+            "income_group": "Low income",
+            "description": "Syrian Arab Republic population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "TUN",
+          "name": "Tunisia",
+          "data": {
+            "$area": 12277109,
+            "$color": "#E15759",
+            "population": 12277109,
+            "region": "Middle East & North Africa",
+            "income_group": "Lower middle income",
+            "description": "Tunisia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "JOR",
+          "name": "Jordan",
+          "data": {
+            "$area": 11552876,
+            "$color": "#E15759",
+            "population": 11552876,
+            "region": "Middle East & North Africa",
+            "income_group": "Lower middle income",
+            "description": "Jordan population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ARE",
+          "name": "United Arab Emirates",
+          "data": {
+            "$area": 10986400,
+            "$color": "#E15759",
+            "population": 10986400,
+            "region": "Middle East & North Africa",
+            "income_group": "High income",
+            "description": "United Arab Emirates population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ISR",
+          "name": "Israel",
+          "data": {
+            "$area": 9974400,
+            "$color": "#E15759",
+            "population": 9974400,
+            "region": "Middle East & North Africa",
+            "income_group": "High income",
+            "description": "Israel population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "LBY",
+          "name": "Libya",
+          "data": {
+            "$area": 7381023,
+            "$color": "#E15759",
+            "population": 7381023,
+            "region": "Middle East & North Africa",
+            "income_group": "Upper middle income",
+            "description": "Libya population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "LBN",
+          "name": "Lebanon",
+          "data": {
+            "$area": 5805962,
+            "$color": "#E15759",
+            "population": 5805962,
+            "region": "Middle East & North Africa",
+            "income_group": "Lower middle income",
+            "description": "Lebanon population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "PSE",
+          "name": "West Bank and Gaza",
+          "data": {
+            "$area": 5289152,
+            "$color": "#E15759",
+            "population": 5289152,
+            "region": "Middle East & North Africa",
+            "income_group": "Lower middle income",
+            "description": "West Bank and Gaza population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "OMN",
+          "name": "Oman",
+          "data": {
+            "$area": 5281538,
+            "$color": "#E15759",
+            "population": 5281538,
+            "region": "Middle East & North Africa",
+            "income_group": "High income",
+            "description": "Oman population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "KWT",
+          "name": "Kuwait",
+          "data": {
+            "$area": 4897263,
+            "$color": "#E15759",
+            "population": 4897263,
+            "region": "Middle East & North Africa",
+            "income_group": "High income",
+            "description": "Kuwait population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "QAT",
+          "name": "Qatar",
+          "data": {
+            "$area": 2857822,
+            "$color": "#E15759",
+            "population": 2857822,
+            "region": "Middle East & North Africa",
+            "income_group": "High income",
+            "description": "Qatar population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "BHR",
+          "name": "Bahrain",
+          "data": {
+            "$area": 1588670,
+            "$color": "#E15759",
+            "population": 1588670,
+            "region": "Middle East & North Africa",
+            "income_group": "High income",
+            "description": "Bahrain population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "DJI",
+          "name": "Djibouti",
+          "data": {
+            "$area": 1168722,
+            "$color": "#E15759",
+            "population": 1168722,
+            "region": "Middle East & North Africa",
+            "income_group": "Lower middle income",
+            "description": "Djibouti population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MLT",
+          "name": "Malta",
+          "data": {
+            "$area": 568847,
+            "$color": "#E15759",
+            "population": 568847,
+            "region": "Middle East & North Africa",
+            "income_group": "High income",
+            "description": "Malta population in 2024"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "north_america",
+      "name": "North America",
+      "data": {
+        "$area": 381464223,
+        "$color": "#B07AA1",
+        "population": 381464223,
+        "region": "North America",
+        "description": "Total population of North America"
+      },
+      "children": [
+        {
+          "id": "USA",
+          "name": "United States",
+          "data": {
+            "$area": 340110988,
+            "$color": "#B07AA1",
+            "population": 340110988,
+            "region": "North America",
+            "income_group": "High income",
+            "description": "United States population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "CAN",
+          "name": "Canada",
+          "data": {
+            "$area": 41288599,
+            "$color": "#B07AA1",
+            "population": 41288599,
+            "region": "North America",
+            "income_group": "High income",
+            "description": "Canada population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "BMU",
+          "name": "Bermuda",
+          "data": {
+            "$area": 64636,
+            "$color": "#B07AA1",
+            "population": 64636,
+            "region": "North America",
+            "income_group": "High income",
+            "description": "Bermuda population in 2024"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "south_asia",
+      "name": "South Asia",
+      "data": {
+        "$area": 1677384532,
+        "$color": "#4E79A7",
+        "population": 1677384532,
+        "region": "South Asia",
+        "description": "Total population of South Asia"
+      },
+      "children": [
+        {
+          "id": "IND",
+          "name": "India",
+          "data": {
+            "$area": 1450935791,
+            "$color": "#4E79A7",
+            "population": 1450935791,
+            "region": "South Asia",
+            "income_group": "Lower middle income",
+            "description": "India population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "BGD",
+          "name": "Bangladesh",
+          "data": {
+            "$area": 173562364,
+            "$color": "#4E79A7",
+            "population": 173562364,
+            "region": "South Asia",
+            "income_group": "Lower middle income",
+            "description": "Bangladesh population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "NPL",
+          "name": "Nepal",
+          "data": {
+            "$area": 29651054,
+            "$color": "#4E79A7",
+            "population": 29651054,
+            "region": "South Asia",
+            "income_group": "Lower middle income",
+            "description": "Nepal population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "LKA",
+          "name": "Sri Lanka",
+          "data": {
+            "$area": 21916000,
+            "$color": "#4E79A7",
+            "population": 21916000,
+            "region": "South Asia",
+            "income_group": "Lower middle income",
+            "description": "Sri Lanka population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "BTN",
+          "name": "Bhutan",
+          "data": {
+            "$area": 791524,
+            "$color": "#4E79A7",
+            "population": 791524,
+            "region": "South Asia",
+            "income_group": "Lower middle income",
+            "description": "Bhutan population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MDV",
+          "name": "Maldives",
+          "data": {
+            "$area": 527799,
+            "$color": "#4E79A7",
+            "population": 527799,
+            "region": "South Asia",
+            "income_group": "Upper middle income",
+            "description": "Maldives population in 2024"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "sub_saharan_africa",
+      "name": "Sub-Saharan Africa",
+      "data": {
+        "$area": 1291044964,
+        "$color": "#59A14F",
+        "population": 1291044964,
+        "region": "Sub-Saharan Africa",
+        "description": "Total population of Sub-Saharan Africa"
+      },
+      "children": [
+        {
+          "id": "NGA",
+          "name": "Nigeria",
+          "data": {
+            "$area": 232679478,
+            "$color": "#59A14F",
+            "population": 232679478,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Nigeria population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ETH",
+          "name": "Ethiopia",
+          "data": {
+            "$area": 132059767,
+            "$color": "#59A14F",
+            "population": 132059767,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Not available",
+            "description": "Ethiopia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "COD",
+          "name": "Congo, Dem. Rep.",
+          "data": {
+            "$area": 109276265,
+            "$color": "#59A14F",
+            "population": 109276265,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Congo, Dem. Rep. population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "TZA",
+          "name": "Tanzania",
+          "data": {
+            "$area": 68560157,
+            "$color": "#59A14F",
+            "population": 68560157,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Tanzania population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ZAF",
+          "name": "South Africa",
+          "data": {
+            "$area": 64007187,
+            "$color": "#59A14F",
+            "population": 64007187,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Upper middle income",
+            "description": "South Africa population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "KEN",
+          "name": "Kenya",
+          "data": {
+            "$area": 56432944,
+            "$color": "#59A14F",
+            "population": 56432944,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Kenya population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SDN",
+          "name": "Sudan",
+          "data": {
+            "$area": 50448963,
+            "$color": "#59A14F",
+            "population": 50448963,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Sudan population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "UGA",
+          "name": "Uganda",
+          "data": {
+            "$area": 50015092,
+            "$color": "#59A14F",
+            "population": 50015092,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Uganda population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "AGO",
+          "name": "Angola",
+          "data": {
+            "$area": 37885849,
+            "$color": "#59A14F",
+            "population": 37885849,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Angola population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MOZ",
+          "name": "Mozambique",
+          "data": {
+            "$area": 34631766,
+            "$color": "#59A14F",
+            "population": 34631766,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Mozambique population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "GHA",
+          "name": "Ghana",
+          "data": {
+            "$area": 34427414,
+            "$color": "#59A14F",
+            "population": 34427414,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Ghana population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MDG",
+          "name": "Madagascar",
+          "data": {
+            "$area": 31964956,
+            "$color": "#59A14F",
+            "population": 31964956,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Madagascar population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "CIV",
+          "name": "Cote d'Ivoire",
+          "data": {
+            "$area": 31934230,
+            "$color": "#59A14F",
+            "population": 31934230,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Cote d'Ivoire population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "CMR",
+          "name": "Cameroon",
+          "data": {
+            "$area": 29123744,
+            "$color": "#59A14F",
+            "population": 29123744,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Cameroon population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "NER",
+          "name": "Niger",
+          "data": {
+            "$area": 27032412,
+            "$color": "#59A14F",
+            "population": 27032412,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Niger population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MLI",
+          "name": "Mali",
+          "data": {
+            "$area": 24478595,
+            "$color": "#59A14F",
+            "population": 24478595,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Mali population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "BFA",
+          "name": "Burkina Faso",
+          "data": {
+            "$area": 23548781,
+            "$color": "#59A14F",
+            "population": 23548781,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Burkina Faso population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MWI",
+          "name": "Malawi",
+          "data": {
+            "$area": 21655286,
+            "$color": "#59A14F",
+            "population": 21655286,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Malawi population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ZMB",
+          "name": "Zambia",
+          "data": {
+            "$area": 21314956,
+            "$color": "#59A14F",
+            "population": 21314956,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Zambia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "TCD",
+          "name": "Chad",
+          "data": {
+            "$area": 20299123,
+            "$color": "#59A14F",
+            "population": 20299123,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Chad population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SOM",
+          "name": "Somalia, Fed. Rep.",
+          "data": {
+            "$area": 19009151,
+            "$color": "#59A14F",
+            "population": 19009151,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Somalia, Fed. Rep. population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SEN",
+          "name": "Senegal",
+          "data": {
+            "$area": 18501984,
+            "$color": "#59A14F",
+            "population": 18501984,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Senegal population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ZWE",
+          "name": "Zimbabwe",
+          "data": {
+            "$area": 16634373,
+            "$color": "#59A14F",
+            "population": 16634373,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Zimbabwe population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "GIN",
+          "name": "Guinea",
+          "data": {
+            "$area": 14754785,
+            "$color": "#59A14F",
+            "population": 14754785,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Guinea population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "BEN",
+          "name": "Benin",
+          "data": {
+            "$area": 14462724,
+            "$color": "#59A14F",
+            "population": 14462724,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Benin population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "RWA",
+          "name": "Rwanda",
+          "data": {
+            "$area": 14256567,
+            "$color": "#59A14F",
+            "population": 14256567,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Rwanda population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "BDI",
+          "name": "Burundi",
+          "data": {
+            "$area": 14047786,
+            "$color": "#59A14F",
+            "population": 14047786,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Burundi population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SSD",
+          "name": "South Sudan",
+          "data": {
+            "$area": 11943408,
+            "$color": "#59A14F",
+            "population": 11943408,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "South Sudan population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "TGO",
+          "name": "Togo",
+          "data": {
+            "$area": 9515236,
+            "$color": "#59A14F",
+            "population": 9515236,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Togo population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SLE",
+          "name": "Sierra Leone",
+          "data": {
+            "$area": 8642022,
+            "$color": "#59A14F",
+            "population": 8642022,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Sierra Leone population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "COG",
+          "name": "Congo, Rep.",
+          "data": {
+            "$area": 6332961,
+            "$color": "#59A14F",
+            "population": 6332961,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Congo, Rep. population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "LBR",
+          "name": "Liberia",
+          "data": {
+            "$area": 5612817,
+            "$color": "#59A14F",
+            "population": 5612817,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Liberia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "CAF",
+          "name": "Central African Republic",
+          "data": {
+            "$area": 5330690,
+            "$color": "#59A14F",
+            "population": 5330690,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Central African Republic population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MRT",
+          "name": "Mauritania",
+          "data": {
+            "$area": 5169395,
+            "$color": "#59A14F",
+            "population": 5169395,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Mauritania population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "ERI",
+          "name": "Eritrea",
+          "data": {
+            "$area": 3535603,
+            "$color": "#59A14F",
+            "population": 3535603,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Eritrea population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "NAM",
+          "name": "Namibia",
+          "data": {
+            "$area": 3030131,
+            "$color": "#59A14F",
+            "population": 3030131,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Namibia population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "GMB",
+          "name": "Gambia, The",
+          "data": {
+            "$area": 2759988,
+            "$color": "#59A14F",
+            "population": 2759988,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Gambia, The population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "GAB",
+          "name": "Gabon",
+          "data": {
+            "$area": 2538952,
+            "$color": "#59A14F",
+            "population": 2538952,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Upper middle income",
+            "description": "Gabon population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "BWA",
+          "name": "Botswana",
+          "data": {
+            "$area": 2521139,
+            "$color": "#59A14F",
+            "population": 2521139,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Upper middle income",
+            "description": "Botswana population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "LSO",
+          "name": "Lesotho",
+          "data": {
+            "$area": 2337423,
+            "$color": "#59A14F",
+            "population": 2337423,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Lesotho population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "GNB",
+          "name": "Guinea-Bissau",
+          "data": {
+            "$area": 2201352,
+            "$color": "#59A14F",
+            "population": 2201352,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Low income",
+            "description": "Guinea-Bissau population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "GNQ",
+          "name": "Equatorial Guinea",
+          "data": {
+            "$area": 1892516,
+            "$color": "#59A14F",
+            "population": 1892516,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Upper middle income",
+            "description": "Equatorial Guinea population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "MUS",
+          "name": "Mauritius",
+          "data": {
+            "$area": 1245779,
+            "$color": "#59A14F",
+            "population": 1245779,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Upper middle income",
+            "description": "Mauritius population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SWZ",
+          "name": "Eswatini",
+          "data": {
+            "$area": 1242822,
+            "$color": "#59A14F",
+            "population": 1242822,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Eswatini population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "COM",
+          "name": "Comoros",
+          "data": {
+            "$area": 866628,
+            "$color": "#59A14F",
+            "population": 866628,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Comoros population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "CPV",
+          "name": "Cabo Verde",
+          "data": {
+            "$area": 524877,
+            "$color": "#59A14F",
+            "population": 524877,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Upper middle income",
+            "description": "Cabo Verde population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "STP",
+          "name": "Sao Tome and Principe",
+          "data": {
+            "$area": 235536,
+            "$color": "#59A14F",
+            "population": 235536,
+            "region": "Sub-Saharan Africa",
+            "income_group": "Lower middle income",
+            "description": "Sao Tome and Principe population in 2024"
+          },
+          "children": []
+        },
+        {
+          "id": "SYC",
+          "name": "Seychelles",
+          "data": {
+            "$area": 121354,
+            "$color": "#59A14F",
+            "population": 121354,
+            "region": "Sub-Saharan Africa",
+            "income_group": "High income",
+            "description": "Seychelles population in 2024"
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}
