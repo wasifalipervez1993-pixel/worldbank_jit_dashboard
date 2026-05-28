@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>World Bank Population Dashboard using JIT</title>
 
   <link rel="stylesheet" href="css/style.css" />
@@ -39,7 +40,7 @@
     </div>
 
     <div class="summary-card">
-      <h3>Latest Year</h3>
+      <h3>Selected Year</h3>
       <p id="latestYear">Loading...</p>
     </div>
   </section>
@@ -52,9 +53,42 @@
       <p><strong>Dataset:</strong> World Bank Population, total</p>
       <p><strong>Indicator:</strong> SP.POP.TOTL</p>
       <p><strong>Data units:</strong> Countries and economies with valid World Bank region metadata</p>
-      <p><strong>Visualization:</strong> JIT Squarified TreeMap</p>
-      <p><strong>Area encoding:</strong> Rectangle area represents population size.</p>
-      <p><strong>Color encoding:</strong> Color represents the World Bank region using the <code>$color</code> field in the JIT JSON data.</p>
+      <p><strong>Visualization:</strong> JIT TreeMap with selectable display modes</p>
+      <p><strong>Area encoding:</strong> Larger rectangles represent larger population values.</p>
+      <p><strong>Color encoding:</strong> Color hue represents the World Bank region, while shade intensity helps distinguish population size within the selected year.</p>
+
+      <hr>
+
+      <div class="year-card">
+        <label for="yearInput"><strong>Select Population Year</strong></label>
+
+        <div class="year-control">
+          <input id="yearInput" type="number" placeholder="Enter year" />
+          <button id="applyYear" type="button">Apply</button>
+        </div>
+
+        <p id="yearRangeText">
+          Available year range: Loading...
+        </p>
+
+        <p id="yearMessage" class="year-message"></p>
+      </div>
+
+      <hr>
+
+      <div class="mode-card">
+        <label for="treemapMode"><strong>TreeMap Mode</strong></label>
+
+        <select id="treemapMode">
+          <option value="squarified">Squarified Animated TreeMap</option>
+          <option value="ondemand">On-Demand Nodes TreeMap</option>
+          <option value="cushion">Cushion TreeMap</option>
+        </select>
+
+        <p id="modeDescription">
+          Displays the complete hierarchical dataset using JIT Squarified TreeMap animation.
+        </p>
+      </div>
 
       <hr>
 
@@ -73,43 +107,16 @@
     <section class="visual-section">
       <div class="visual-header">
         <h2>Population by Region and Country/Economy</h2>
-        <p>
-          Data units are grouped by World Bank region. Rectangle area represents population size,
-          while color represents the World Bank region.
+        <p id="visualDescription">
+          Data units are grouped by World Bank region. Rectangle area represents population size.
+          Color hue represents region, while shade intensity reflects population magnitude.
         </p>
       </div>
 
       <div class="legend-card">
-        <div class="legend-title">📊 Region Color Legend</div>
+        <div class="legend-title">Region Color Legend</div>
         <div id="regionLegend" class="legend-items">
-          <div class="legend-item">
-            <span class="legend-color" style="background: #76B7B2;"></span>
-            <span class="legend-label">East Asia & Pacific</span>
-          </div>
-          <div class="legend-item">
-            <span class="legend-color" style="background: #F28E2B;"></span>
-            <span class="legend-label">Europe & Central Asia</span>
-          </div>
-          <div class="legend-item">
-            <span class="legend-color" style="background: #EDC948;"></span>
-            <span class="legend-label">Latin America & Caribbean</span>
-          </div>
-          <div class="legend-item">
-            <span class="legend-color" style="background: #E15759;"></span>
-            <span class="legend-label">Middle East & North Africa</span>
-          </div>
-          <div class="legend-item">
-            <span class="legend-color" style="background: #B07AA1;"></span>
-            <span class="legend-label">North America</span>
-          </div>
-          <div class="legend-item">
-            <span class="legend-color" style="background: #4E79A7;"></span>
-            <span class="legend-label">South Asia</span>
-          </div>
-          <div class="legend-item">
-            <span class="legend-color" style="background: #59A14F;"></span>
-            <span class="legend-label">Sub-Saharan Africa</span>
-          </div>
+          Loading legend...
         </div>
       </div>
 

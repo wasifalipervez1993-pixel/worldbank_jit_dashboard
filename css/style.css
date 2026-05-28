@@ -7,7 +7,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: #f3f4f6;
   color: #111827;
-  font-size: clamp(13px, 1vw, 16px);
+  font-size: clamp(15px, 1vw, 18px);
 }
 
 .dashboard-banner {
@@ -73,6 +73,71 @@ body {
   box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
 }
 
+.year-card {
+  padding: 14px;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+}
+
+.year-card label {
+  display: block;
+  margin-bottom: 8px;
+  color: #0f172a;
+}
+
+.year-control {
+  display: flex;
+  gap: 8px;
+}
+
+.year-control input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #0f172a;
+  font-size: clamp(13px, 0.95vw, 15px);
+}
+
+.year-control button {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: clamp(13px, 0.95vw, 15px);
+}
+
+.year-control button:hover {
+  background: #1d4ed8;
+}
+
+#yearRangeText {
+  margin: 10px 0 0 0;
+  color: #475569;
+  font-size: clamp(12px, 0.9vw, 14px);
+  line-height: 1.45;
+}
+
+.year-message {
+  margin: 8px 0 0 0;
+  font-size: clamp(12px, 0.9vw, 14px);
+  line-height: 1.45;
+}
+
+.year-message.success {
+  color: #166534;
+}
+
+.year-message.error {
+  color: #b91c1c;
+}
+
 .sidebar h2 {
   margin-top: 0;
   color: #0f172a;
@@ -85,8 +150,8 @@ body {
 }
 
 .sidebar p {
-  line-height: 1.55;
-  font-size: clamp(13px, 0.95vw, 15px);
+  line-height: 1.6;
+  font-size: clamp(14px, 0.95vw, 16px);
 }
 
 .sidebar code {
@@ -100,6 +165,37 @@ body {
   border: none;
   border-top: 1px solid #e5e7eb;
   margin: 18px 0;
+}
+
+.mode-card {
+  padding: 14px;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+}
+
+.mode-card label {
+  display: block;
+  margin-bottom: 8px;
+  color: #0f172a;
+}
+
+.mode-card select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #0f172a;
+  font-size: clamp(13px, 0.95vw, 15px);
+  cursor: pointer;
+}
+
+.mode-card p {
+  margin: 10px 0 0 0;
+  color: #475569;
+  font-size: clamp(12px, 0.9vw, 14px);
+  line-height: 1.45;
 }
 
 #back {
@@ -153,10 +249,10 @@ body {
   font-size: clamp(20px, 1.6vw, 28px);
 }
 
-.visual-header p {
+..visual-header p {
   margin: 0;
   color: #64748b;
-  font-size: clamp(13px, 0.95vw, 15px);
+  font-size: clamp(14px, 0.95vw, 16px);
 }
 
 .legend-card {
@@ -183,11 +279,6 @@ body {
   align-items: center;
 }
 
-.legend-title::before {
-  content: "📊";
-  margin-right: 6px;
-}
-
 .legend-items {
   display: flex;
   flex-wrap: wrap;
@@ -199,10 +290,10 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: clamp(12px, 0.9vw, 14px);
+  font-size: clamp(13px, 0.9vw, 15px);
   color: #1e293b;
   font-weight: 500;
-  padding: 6px 8px;
+  padding: 7px 9px;
   background: #ffffff;
   border-radius: 6px;
   border: 1px solid #e2e8f0;
@@ -224,13 +315,78 @@ body {
 
 #infovis {
   width: 100%;
-  height: min(66vh, 660px);
-  min-height: 440px;
+  height: min(70vh, 720px);
+  min-height: 520px;
   background: #111827;
   border: 1px solid #334155;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
+}
+
+.year-card {
+  padding: 14px;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+}
+
+.year-card label {
+  display: block;
+  margin-bottom: 8px;
+  color: #0f172a;
+}
+
+.year-control {
+  display: flex;
+  gap: 8px;
+}
+
+.year-control input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #0f172a;
+  font-size: clamp(14px, 0.95vw, 16px);
+}
+
+.year-control button {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: clamp(14px, 0.95vw, 16px);
+}
+
+.year-control button:hover {
+  background: #1d4ed8;
+}
+
+#yearRangeText {
+  margin: 10px 0 0 0;
+  color: #475569;
+  font-size: clamp(13px, 0.9vw, 15px);
+  line-height: 1.45;
+}
+
+.year-message {
+  margin: 8px 0 0 0;
+  font-size: clamp(13px, 0.9vw, 15px);
+  line-height: 1.45;
+}
+
+.year-message.success {
+  color: #166534;
+}
+
+.year-message.error {
+  color: #b91c1c;
 }
 
 .node-label {
@@ -317,6 +473,10 @@ body {
     grid-template-columns: 1fr;
   }
 
+  .year-control {
+    flex-direction: column;
+  }
+
   .dashboard-banner h1 {
     font-size: 24px;
   }
@@ -325,4 +485,26 @@ body {
     height: 500px;
     min-height: 380px;
   }
+
+  .year-control {
+    flex-direction: column;
+  }
+}
+
+.node-label {
+  color: #ffffff;
+  font-weight: 700;
+  overflow: hidden;
+  cursor: pointer;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.85);
+  letter-spacing: 0.1px;
+}
+
+#details p {
+  font-size: clamp(14px, 0.95vw, 16px);
+  line-height: 1.55;
+}
+
+#details h3 {
+  font-size: clamp(18px, 1.15vw, 22px);
 }
