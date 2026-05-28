@@ -55,3 +55,12 @@ This data represents the most comprehensive and up-to-date global population dat
 ![World Bank JIT Dashboard](screenshots/dashboard.png)
 
 The interactive dashboard displays world population data in a Squarified TreeMap format, with each rectangle representing a country/economy sized proportionally to its population.
+
+### UI/UX Features
+
+- **Sticky Legend**: The region color legend remains visible while scrolling through the visualization
+- **Responsive Design**: Fully responsive layout that works on desktop, tablet, and mobile devices
+- **Interactive TreeMap**: Click to zoom in, right-click or use Back button to zoom out
+- **Real-time Tooltips**: Hover over regions to see detailed information (population, region, income group)
+- **Color-coded Regions**: Each World Bank region is represented by a distinct color for easy identification
+- **Professional Styling**: Clean, modern interface with gradient accents and subtle shadows
