@@ -22,7 +22,7 @@ https://wasifalipervez1993-pixel.github.io/worldbank_jit_dashboard/
 
 ## Dashboard Preview
 
-![World Bank JIT Dashboard](screenshots/dashboard.png)
+![World Bank JIT Dashboard](screenshots/dashboard.png?v=1)
 
 ---
 
