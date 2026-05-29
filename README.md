@@ -1,37 +1,58 @@
 # World Bank Population Dashboard using JIT
 
-This project visualizes a real-world **World Bank Population, total** dataset using the **JavaScript InfoVis Toolkit (JIT)** TreeMap visualization.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-blue?style=for-the-badge)](https://wasifalipervez1993-pixel.github.io/worldbank_jit_dashboard/)
+![JIT](https://img.shields.io/badge/Visualization-JavaScript%20InfoVis%20Toolkit-orange?style=for-the-badge)
+![Dataset](https://img.shields.io/badge/Dataset-World%20Bank%20Population-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Deployed-success?style=for-the-badge)
 
-The dashboard converts the original World Bank CSV dataset into a JIT-compatible hierarchical JSON structure and displays population data by **World Bank region** and **country/economy**.
+An interactive dashboard that visualizes the **World Bank Population, total** dataset using the **JavaScript InfoVis Toolkit (JIT)** TreeMap visualization.
 
----
-
-## Project Overview
-
-The purpose of this project is to demonstrate how a real-world dataset can be transformed into JSON format and visualized using the JavaScript InfoVis Toolkit.
-
-The dashboard includes:
-
-- A real-world World Bank population dataset
-- JIT-compatible hierarchical JSON data
-- Interactive TreeMap visualization
-- Region-based color legend
-- Year-based population selection
-- Multiple JIT TreeMap display modes
-- Tooltip and details panel
-- Responsive dashboard layout
+The project converts the original World Bank CSV data into a hierarchical JSON structure and displays population values by **World Bank region** and **country/economy**.
 
 ---
 
-## Dataset
+## Live Application
 
-**Dataset:** World Bank Population, total  
-**Indicator:** SP.POP.TOTL  
-**Source format:** CSV  
-**Visualization format:** JIT-compatible JSON  
-**Data units:** Countries and economies with valid World Bank region metadata  
+The dashboard is deployed using GitHub Pages:
 
-The original World Bank dataset contains population values for multiple years. The Python conversion script processes these CSV files and generates a hierarchical `data.json` file.
+**Live URL:**  
+https://wasifalipervez1993-pixel.github.io/worldbank_jit_dashboard/
+
+---
+
+## Dashboard Preview
+
+![World Bank JIT Dashboard](screenshots/dashboard.png)
+
+---
+
+## Project Objective
+
+The objective of this project is to explore the JavaScript InfoVis Toolkit and use it to visualize a real-world dataset in JSON format.
+
+The project demonstrates:
+
+- how to select a suitable visualization from JIT,
+- how to convert a real dataset into JIT-compatible JSON,
+- how to integrate JSON data into a TreeMap,
+- how to customize HTML and CSS into a dashboard interface,
+- how to add user interaction, tooltips, legends, and filtering options.
+
+---
+
+## Dataset Information
+
+| Item | Description |
+|---|---|
+| Dataset | World Bank Population, total |
+| Indicator | SP.POP.TOTL |
+| Source format | CSV |
+| Visualization format | JSON |
+| Data units | Countries and economies with valid World Bank region metadata |
+| Available years | 1960 to 2024 |
+| Default year | 2024 |
+
+The data is processed using Python and converted into a hierarchical JSON file named `data.json`.
 
 ---
 
@@ -39,93 +60,88 @@ The original World Bank dataset contains population values for multiple years. T
 
 This project uses the **JavaScript InfoVis Toolkit (JIT)**.
 
-The main visualization is based on:
+The TreeMap is created using:
 
 ```javascript
 new $jit.TM.Squarified(...)
 ```
 
-The TreeMap is rendered using JIT and populated using:
+The generated JSON dataset is loaded into the TreeMap using:
 
 ```javascript
 tm.loadJSON(json)
 tm.refresh()
 ```
 
+This keeps the visualization based on the original JIT TreeMap framework while improving the interface with dashboard-style HTML and CSS.
+
 ---
 
 ## TreeMap Modes
 
-The dashboard allows users to switch between different JIT TreeMap display modes:
+The dashboard allows users to select different JIT TreeMap display modes.
 
-1. **Squarified Animated TreeMap**  
-   Displays the complete hierarchical dataset using JIT Squarified TreeMap animation.
+| Mode | Description |
+|---|---|
+| Squarified Animated TreeMap | Displays the full hierarchy using JIT Squarified TreeMap animation |
+| On-Demand Nodes TreeMap | Starts from higher-level nodes and loads child nodes using JIT request/prune logic |
+| Cushion TreeMap | Uses JIT Cushion TreeMap rendering with a depth-like gradient effect |
 
-2. **On-Demand Nodes TreeMap**  
-   Starts with higher-level nodes and loads child nodes using JIT request and prune logic.
-
-3. **Cushion TreeMap**  
-   Uses JIT Cushion TreeMap rendering with a gradient-based depth effect.
-
-These options allow the user to explore different TreeMap styles while using the same World Bank population dataset.
+These modes allow the same population dataset to be explored through different JIT TreeMap configurations.
 
 ---
 
 ## Year Selection Feature
 
-The dashboard includes a year input option where users can enter the population year they want to visualize.
+The dashboard includes a year input option.
 
-The available year range is displayed on the dashboard so users do not enter a year that is not present in the dataset.
-
-Example:
+Users can enter a valid year from the available range:
 
 ```text
-Available year range: 1960 to 2024
+1960 to 2024
 ```
 
-If the user enters a valid year, the TreeMap is rebuilt using population values from that year.
+When a valid year is entered, the TreeMap is rebuilt using population values for that year.
 
-If the user enters an unavailable year, an error message is shown.
+If an unavailable year is entered, the dashboard shows an error message and prevents invalid visualization.
 
 ---
 
 ## Visual Encoding
 
-The TreeMap uses the following visual encoding:
+| Visual Element | Meaning |
+|---|---|
+| Rectangle area | Population size |
+| Color hue | World Bank region |
+| Shade intensity | Relative population magnitude within the selected year |
+| Tooltip | Country/economy or region details |
+| Details panel | Selected node information |
 
-- **Rectangle area:** Represents population size.
-- **Color hue:** Represents the World Bank region.
-- **Shade intensity:** Helps distinguish population magnitude within the selected year.
-- **Tooltip/details panel:** Shows population, region, and income group information.
-
-Small country/economy labels are intentionally hidden when rectangles are too small. Users can hover over or zoom into regions to inspect smaller countries/economies.
+Small labels are hidden when rectangles are too small to avoid clutter. Users can still inspect those entries using hover tooltips or by zooming into the TreeMap.
 
 ---
 
 ## Dashboard Features
 
-The dashboard includes:
-
-- **Header banner** with project title and description
-- **Summary cards** showing:
-  - Population covered
-  - World Bank regions
-  - Countries/economies
-  - Selected year
-- **Dataset information panel**
-- **Year input control**
-- **TreeMap mode selector**
-- **Region color legend**
-- **Interactive TreeMap**
-- **Tooltip and details panel**
-- **Responsive layout for different screen sizes**
+- Live interactive dashboard
+- Real-world World Bank dataset
+- JIT-compatible JSON integration
+- Region color legend
+- Year-based filtering
+- Multiple JIT TreeMap display modes
+- Tooltip-based information display
+- Click-to-zoom interaction
+- Back/right-click zoom-out support
+- Responsive dashboard layout
+- Summary cards for key statistics
+- Clean dataset information panel
 
 ---
 
-## Project Folder Structure
+## Project Structure
 
 ```text
-worldbank_jit_dashboard_final/
+worldbank_jit_dashboard/
 │
 ├── index.html
 ├── data.json
@@ -151,11 +167,9 @@ worldbank_jit_dashboard_final/
 
 ---
 
-## How to Run
+## How to Run Locally
 
 ### 1. Install pandas
-
-If pandas is not already installed, run:
 
 ```bash
 pip install pandas
@@ -163,13 +177,11 @@ pip install pandas
 
 ### 2. Generate the JIT-compatible JSON file
 
-Run:
-
 ```bash
 python convert_to_jit_json.py
 ```
 
-This creates or updates:
+This generates or updates:
 
 ```text
 data.json
@@ -177,33 +189,27 @@ data.json
 
 ### 3. Start a local server
 
-Run:
-
 ```bash
 python -m http.server 8000
 ```
 
 ### 4. Open the dashboard
 
-Open this URL in your browser:
-
 ```text
 http://localhost:8000
 ```
 
-If the browser shows an old version, use:
+If the browser still shows an old version, hard refresh the page:
 
 ```text
 Ctrl + Shift + R
 ```
 
-or clear the browser cache.
-
 ---
 
 ## Data Processing Output
 
-The conversion script generates output similar to:
+The conversion script produces output similar to:
 
 ```text
 Default/latest year selected: 2024
@@ -213,15 +219,13 @@ Total regions included: 7
 Available years included: 1960 to 2024
 ```
 
-The actual values may slightly vary depending on the World Bank dataset version.
+The exact values may depend on the downloaded version of the World Bank dataset.
 
 ---
 
-## Explanation of JSON Structure
+## JSON Structure
 
-The generated `data.json` follows the hierarchical format required by JIT TreeMap.
-
-The hierarchy is:
+The generated `data.json` follows the hierarchical structure required by JIT TreeMap.
 
 ```text
 Root
@@ -231,58 +235,86 @@ Root
 
 Each node contains:
 
-- `id`: Unique node identifier
-- `name`: Display name
-- `data`: Data attributes used by JIT
-- `children`: Child nodes
+| Field | Purpose |
+|---|---|
+| id | Unique node identifier |
+| name | Display name |
+| data | Population, color, region, income group, and yearly values |
+| children | Child nodes |
 
-Important JIT fields include:
+Important JIT data fields include:
 
 ```json
 "$area"
 ```
 
-This controls the rectangle size.
+Controls the rectangle size.
 
 ```json
 "$color"
 ```
 
-This controls the rectangle color.
+Controls the rectangle color.
 
-The project also stores population values for multiple years so the dashboard can rebuild the TreeMap when a user selects a different year.
+The JSON also stores yearly population values, allowing the dashboard to rebuild the TreeMap for a selected year.
 
 ---
 
 ## Interaction Guide
 
-- Hover over a rectangle to view a tooltip.
+- Hover over a rectangle to view tooltip details.
 - Click a region or country/economy to zoom in.
-- Right-click or use the Back button to zoom out.
+- Right-click or press the Back button to zoom out.
 - Enter a valid year and click Apply to update the TreeMap.
-- Use the TreeMap Mode selector to switch between Squarified, On-Demand, and Cushion TreeMap styles.
+- Use the TreeMap Mode selector to switch between JIT TreeMap styles.
 
 ---
 
-## Dashboard Visualization
+## Deployment
 
-![World Bank JIT Dashboard](screenshots/dashboard.png)
+The project is deployed using GitHub Pages.
 
-The dashboard displays population data in an interactive TreeMap layout. Countries/economies are grouped by World Bank region, and rectangle size is proportional to population.
+Live deployment:
+
+```text
+https://wasifalipervez1993-pixel.github.io/worldbank_jit_dashboard/
+```
+
+Since this is a static dashboard, GitHub Pages can serve the application directly from the repository.
 
 ---
 
-## Notes
+## Notes and Limitations
 
-- The dataset grouping follows the World Bank metadata file.
-- Some countries/economies may appear under regions that differ from common geographic expectations because the project uses the official metadata included with the downloaded dataset.
-- Small labels are hidden to avoid visual clutter.
-- The TreeMap remains interactive through hover, click, zoom, and details display.
+- The regional grouping follows the World Bank metadata file.
+- Some countries/economies may appear under regions that differ from common geographic expectations because the official metadata is used.
+- Very small labels are hidden to maintain readability.
+- The Python script is only required for generating `data.json`; the deployed dashboard runs as a static web application.
+- GitHub Pages does not run Python code, so `data.json` must be generated before deployment.
+
+---
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- JavaScript InfoVis Toolkit
+- Python
+- pandas
+- GitHub Pages
 
 ---
 
 ## Conclusion
 
-This project demonstrates how to use the JavaScript InfoVis Toolkit with a real-world dataset. It converts CSV data into JIT-compatible JSON, applies hierarchical data visualization, and presents the result in a professional dashboard interface.
+This project demonstrates how the JavaScript InfoVis Toolkit can be used to visualize a real-world dataset through an interactive TreeMap dashboard.
 
-The final dashboard selects a JIT visualization, integrating a dataset in JSON format, and modifying the HTML/CSS interface into a meaningful interactive dashboard.
+The final dashboard satisfies the assignment requirements by:
+
+- using a JIT visualization,
+- converting a real dataset into JSON,
+- integrating the JSON dataset into the TreeMap,
+- customizing the HTML/CSS layout,
+- adding a banner, description, legend, details panel, and dashboard controls,
+- deploying the application online using GitHub Pages.
